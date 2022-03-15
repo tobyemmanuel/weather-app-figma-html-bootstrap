@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherifier</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+ </head>
+<body>
+    <div class="container">
+        <nav class="navbar bg-weatherifier justify-content-between justify-content-md-between justify-content-sm-center px-5 py-3">
+            <a class="navbar-brand">weatherifer</a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2 search-input" id="search-input" type="search" placeholder="Search" aria-label="Search"/>
+            </form>
+          </nav>
+    </div>
+    <div class="container pt-4 px-4 ">
+        <div class="row main-container px-md-5 px-sm-2 py-md-4 py-sm-2">
+            <div class="col-md-6  ">
+                <div class="row">
+                    <div class="col-md-7 col-sm-12 pt-4">
+                       <h1 class="city">london</h1>
+                       <h2 class="country">United Kingdom</h2>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="time-date align-content-center ">
+                            <div class="time d-flex justify-content-start p-0">
+                                <span class="time-icon align-self-center"><img class="time-icon" src="assets/images/time-icon.png" alt=""></span>
+                                <span class="hour p-0">09 </span>
+                                <div class="hour-period d-flex flex-column justify-content-around align-self-center">
+                                    <span class="mins">45</span>
+                                    <span class="period">am</span>
+                                </div>               
+                            </div>
+                            <div class="date d-flex justify-content-start">
+                                <span class="date-icon align-self-center"><img class="date-icon" src="assets/images/date-icon.png" alt=""></span>
+                                <span class="date-text align-self-center">Mar. 24</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5  col-md-offset-1">
+                <div class="row">
+                    <div class="left-side col-md-7">
+                        <div class="weather-condition">
+                            <span class="weather-cond-title">Weather Condition</span>
+                            <div class="weather-text d-flex justify-content-start">
+                                <img class="align-self-center img-weather" src="assets/images/sunny.png" alt="">
+                                <span class="weather-type align-self-center">Sunny</span>
+                            </div>
+                        </div>
+                        <div class="probabilities">
+                            <p class="rain-chances">Chances of rain: <span class="rain-prob">100%</span></p>
+                            <p class="snow-chances">Chances of snow: <span class="snow-prob">100%</span></p>
+                        </div>
+                    </div>
+                    <div class="right-side col-md-5">
+                        <div class="temperature">
+                            <span class="temp-title">Temperature</span>
+                            <div class="temp d-flex justify-content-start">
+                                <span class="temp-text ">48</span>
+                                <span class="temp-deg">o</span>
+                                <span class="temp-unit">c</span>
+                            </div>                            
+                        </div>
+                        <div class="wind">
+                            <span class="wind-title">Wind Condition</span>
+                            <div class="wind-c d-flex justify-content-start">
+                                <span class="wind-text">21</span>
+                                <span class="wind-unit">kph</span>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr"/>
+            <div class="col-md-12 mt-3  others-conditions">
+                <div class="card-deck">
+                    <div class="card  text-center">
+                      
+                      <div class="card-body">
+                        <h5 class="card-title">Mar. 25</h5>
+                        <img class="card-img" src="assets/images/cloud-with-lightning.png" alt="">
+                        <p class="card-text">Thunderstorm</p>
+                        <p class="card-text">24&#176c</p>
+                      </div>
+                    </div>
+                    <div class="card text-center">
+                      
+                        <div class="card-body">
+                          <h5 class="card-title">Mar. 25</h5>
+                          <img class="card-img" src="assets/images/cloud-with-rain.png" alt="">
+                          <p class="card-text">Rain</p>
+                          <p class="card-text">24&#176c</p>
+                        </div>
+                      </div>
+                      <div class="card text-center">
+                      
+                        <div class="card-body">
+                          <h5 class="card-title">Mar. 25</h5>
+                          <img class="card-img" src="assets/images/cloud-with-snow.png" alt="">
+                          <p class="card-text">Snow</p>
+                          <p class="card-text">24&#176c</p>
+                        </div>
+                      </div>
+                      <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title">Mar. 25</h5>
+                          <img class="card-img" src="assets/images/cloudy.png" alt="">
+                          <p class="card-text">Cloudy</p>
+                          <p class="card-text">24&#176c</p>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
